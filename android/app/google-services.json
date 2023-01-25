@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "571664418101",
+    "project_id": "water-pos-60b3d",
+    "storage_bucket": "water-pos-60b3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571664418101:android:714f491994979178e7b87c",
+        "android_client_info": {
+          "package_name": "com.waterrefstaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571664418101-jenu0tte61dpta3diueq9277isfjere0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTB7c92DCsZMaie76xWBzkZG0pkN_oNRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571664418101-jenu0tte61dpta3diueq9277isfjere0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
