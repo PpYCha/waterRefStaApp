@@ -2,10 +2,22 @@ import {StyleSheet, Text, View, ImageBackground, Alert} from 'react-native';
 import React, {useState, useContext} from 'react';
 import CustomInput from '../components/CustomInput';
 import CustomButton from '../components/CustomButton';
+import auth from '@react-native-firebase/auth';
 
 const LoginScreen = ({navigation}) => {
   const [userName, setUserName] = useState('');
   const [password, setPassword] = useState('');
+
+  const handleLogin = () => {
+    auth()
+      .signInWithEmailAndPassword(userName, password)
+      .then(userCredentials => {
+        const user = userCredentials.user;
+        navigation.navigate('Home');
+        // console.log('Logged in with:', user.email);
+      })
+      .catch(error => alert(error.message));
+  };
 
   return (
     <View style={styles.container}>
@@ -30,7 +42,7 @@ const LoginScreen = ({navigation}) => {
             buttonTitle="LOGIN"
             onPress={() => {
               if (userName != '' || password != '') {
-                navigation.navigate('Home');
+                handleLogin();
                 console.log('if login pressed');
               } else {
                 Alert.alert('Please input your password or email');
