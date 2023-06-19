@@ -1,0 +1,45 @@
+[debug] [2023-04-18T22:55:08.371Z] ----------------------------------------------------------------------
+[debug] [2023-04-18T22:55:08.373Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\PpYCha\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-04-18T22:55:08.373Z] CLI Version:   11.23.1
+[debug] [2023-04-18T22:55:08.374Z] Platform:      win32
+[debug] [2023-04-18T22:55:08.374Z] Node Version:  v16.14.0
+[debug] [2023-04-18T22:55:08.374Z] Time:          Wed Apr 19 2023 06:55:08 GMT+0800 (Philippine Standard Time)
+[debug] [2023-04-18T22:55:08.375Z] ----------------------------------------------------------------------
+[debug] 
+[info] Already logged in as custoriojomei2@gmail.com
+[debug] [2023-04-18T22:55:19.383Z] ----------------------------------------------------------------------
+[debug] [2023-04-18T22:55:19.384Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\PpYCha\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-04-18T22:55:19.385Z] CLI Version:   11.23.1
+[debug] [2023-04-18T22:55:19.385Z] Platform:      win32
+[debug] [2023-04-18T22:55:19.385Z] Node Version:  v16.14.0
+[debug] [2023-04-18T22:55:19.386Z] Time:          Wed Apr 19 2023 06:55:19 GMT+0800 (Philippine Standard Time)
+[debug] [2023-04-18T22:55:19.386Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-18T22:55:19.392Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-18T22:55:19.393Z] > authorizing via signed-in user (custoriojomei2@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\PpYCha\source\React Native\1. thesis\waterRefStaApp
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-04-18T22:55:27.769Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-04-18T22:55:48.827Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2023-04-18T22:55:53.840Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\PpYCha\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
